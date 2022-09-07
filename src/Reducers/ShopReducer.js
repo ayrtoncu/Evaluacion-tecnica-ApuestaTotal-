@@ -7,9 +7,11 @@ import { TYPES } from "../Actions/ShopActions";
 export const ShopInitialState = {
   cart: [],
 };
-export function shoppingReducers(state, action) {
+export function shoppingReducers(state, action, lista) {
+  console.log(lista)
   switch (action.type) {
     case TYPES.ADD_CART: {
+      // let newitem = state.lista.find(lista => lista.id)
     }
     case TYPES.CLEAR_ALL_CART: {
     }
