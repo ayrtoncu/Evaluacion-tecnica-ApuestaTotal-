@@ -1,11 +1,11 @@
-import React from 'react';
-
-const ShopActions = () => {
-  return (
-    <div>
-      
-    </div>
-  );
+export const TYPES = {
+  ADD_CART,
+  CLEAR_ALL_CART,
+  REMOVE_ALL_FROM_CART,
+  REMOVE_ONE_FROM_CART
 }
 
-export default ShopActions;
+const ADD_CART = 'ADD_CART';
+const CLEAR_ALL_CART = 'CLEAN_ALL_CART';
+const REMOVE_ONE_FROM_CART = 'REMOVE_ONE_FROM_CART';
+const REMOVE_ALL_FROM_CART = 'REMOVE_ALL_FROM:CART';

@@ -1,11 +1,3 @@
-import React from 'react';
-
-const ShopReducer = () => {
-  return (
-    <div>
-      
-    </div>
-  );
+export const ShopInitialState = {
+  
 }
-
-export default ShopReducer;
