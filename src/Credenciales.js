@@ -1,6 +1,5 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -12,10 +11,9 @@ const firebaseConfig = {
   projectId: "virtualclinic-1c779",
   storageBucket: "virtualclinic-1c779.appspot.com",
   messagingSenderId: "30065016815",
-  appId: "1:30065016815:web:491d8c654475c3be21801a",
-  measurementId: "G-R1YBL4D3R6"
+  appId: "1:30065016815:web:7ac6332a3892211a21801a",
+  measurementId: "G-0LV3JE2Q9N"
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const appfirebase = initializeApp(firebaseConfig);
